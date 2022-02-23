@@ -1,0 +1,43 @@
+.Screen1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        height: 100vh;
+        width: 100%;
+    }
+    .titleHead{
+        position: absolute;
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        .boldHead{
+            height: 90px;
+            h1{
+                font-size: 72px;
+                color: white;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.495);
+                cursor: pointer;
+                &:hover{
+                    transition-duration: 100ms;
+                    color: rgb(152, 255, 172);
+                    z-index: 3;
+                    font-size: 78px;
+                    // text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.495);
+                }
+            }
+        }
+        
+        h4{
+            font-size: 30px;
+            font-weight: 300;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+        }
+
+        
+    }
+}

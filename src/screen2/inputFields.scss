@@ -1,0 +1,25 @@
+.inputField{
+    height: 70px;
+    width: 420px;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+input{
+    background-color: #F3F3F3;
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+input::placeholder {
+    color: #C1C1C1;
+}
+}
